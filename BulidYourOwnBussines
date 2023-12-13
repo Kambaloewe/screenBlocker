@@ -6,7 +6,7 @@ import sys
 file = "BuildYourOwnBusiness.py" # If you convert the script to exe with pyinstaller or rename the file, change the name.
 
 def on_close(event=None):
-    print("Schließen blockiert")
+    print("Blocking...")
 
 def check_input():
     entered_text = entry.get()
