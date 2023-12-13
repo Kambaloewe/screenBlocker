@@ -13,7 +13,7 @@ def on_close(event=None):
 
 def check_input():
     entered_text = entry.get()
-    if entered_text.lower() == "08wn9iremc4sjj6juxdy":
+    if entered_text.lower() == "08wn9iremc4sjj6juxdy": # Change the Key, if you want...
         root.quit()
 
 def on_key(event):
