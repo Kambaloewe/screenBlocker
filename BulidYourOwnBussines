@@ -44,7 +44,6 @@ def create_widgets():
     label = tk.Label(root, text=label_text_2, font=("Helvetica", 20), fg="#454545")
     label.place(x=screen_width // 2, y=400, anchor=tk.CENTER)
 
-# Hauptteil des Skripts
 root = tk.Tk()
 root.configure(background="#f40000")
 
