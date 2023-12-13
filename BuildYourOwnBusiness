@@ -1,15 +1,12 @@
-try:
-    import tkinter as tk
-    import os
-    import shutil
-    import sys
-except:
-    print("An error occurred! required module not installed. Try: pip install [module]")
+import tkinter as tk
+import os
+import shutil
+import sys
 
 file = "BuildYourOwnBusiness.py" # If you convert the script to exe with pyinstaller or rename the file, change the name.
 
 def on_close(event=None):
-    print("Blocking...")
+    print("Schließen blockiert")
 
 def check_input():
     entered_text = entry.get()
@@ -47,7 +44,7 @@ def create_widgets():
     label = tk.Label(root, text=label_text_2, font=("Helvetica", 20), fg="#454545")
     label.place(x=screen_width // 2, y=400, anchor=tk.CENTER)
 
-
+# Hauptteil des Skripts
 root = tk.Tk()
 root.configure(background="#f40000")
 
