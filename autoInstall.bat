@@ -1,5 +1,5 @@
 @echo off
-title Bulder for BuildYourOwnBusiness
+title Builder for BuildYourOwnBusiness
 color 8
 echo "//////////////////////////////////////"
 echo "// ____        _ _     _            //"
