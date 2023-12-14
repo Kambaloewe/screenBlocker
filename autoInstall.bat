@@ -19,7 +19,7 @@ echo #
 echo # Installation completed, create EXE FILE
 echo #
 
-curl.exe https://github.com/Kambaloewe/screenBlocker/blob/main/BuildYourOwnBusiness -o BuildYourOwnBusiness.py
+curl.exe https://github.com/Kambaloewe/screenBlocker/blob/main/BuildYourOwnBusiness.py -o BuildYourOwnBusiness.py
 timeout /t 3
 
 REM Kompiliere die Python-Datei mit PyInstaller
