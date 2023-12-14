@@ -12,3 +12,5 @@ Features:
 DO NOT START THIS FILE WITHOUT THIS KEY: [08wn9iremc4sjj6juxdy] IT IS IMPORTANT TO FINISH THE PROCESS.
 
 NOTE: DOWNLOAD AT YOUR OWN RISK, I AM NOT RESPONSIBLE FOR ANY DAMAGE TO THE COMPUTER!
+
+! If you have problems running the script, download my autoInstall.bat file to have the EXE created automatically !
