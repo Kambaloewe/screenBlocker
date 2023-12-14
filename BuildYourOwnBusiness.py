@@ -1,7 +1,10 @@
-import tkinter as tk
-import os
-import shutil
-import sys
+try:    
+    import tkinter as tk
+    import os
+    import shutil
+    import sys
+except:
+    print("Import Error")
 
 file = "BuildYourOwnBusiness.py" # If you convert the script to exe with pyinstaller or rename the file, change the name.
 
